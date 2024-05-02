@@ -1,0 +1,63 @@
+#content {
+  background: #dcdcdc;
+  height: 400px;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid gray;
+}
+
+/*
+.item1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.item2 {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.item3 {
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+
+.item4 {
+  flex-grow: 4;
+  flex-shrink: 4;
+}
+*/
+
+/* 
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3 {
+  order: 3;
+}
+
+.order4 {
+  order: 4;
+}
+
+.order {
+  order: -1;
+} 
+*/

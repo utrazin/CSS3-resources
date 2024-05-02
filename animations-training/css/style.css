@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  background: red;
+  position: relative;
+  /* animation-name: box-animation;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate; */
+  animation: box-animation 3s 5s infinite both alternate;
+  -webkit-animation: box-animation 3s 5s infinite both alternate;
+  -moz-animation: box-animation 3s 5s infinite both alternate;
+  -o-animation: box-animation 3s 5s infinite both alternate;
+}
+
+/* KeyFrames */
+@-moz-keyframes box-animation {
+  from {
+    background: red;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background: green;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+  }
+}
+
+@-webkit-keyframes box-animation {
+  from {
+    background: red;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background: green;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+  }
+}
+
+@-o-keyframes box-animation {
+  from {
+    background: red;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background: green;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+  }
+}
+
+@keyframes box-animation {
+  from {
+    background: red;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background: green;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+  }
+}
